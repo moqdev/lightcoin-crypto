@@ -19,7 +19,6 @@ class Account {
 
 }
 
-
 get balance() {
   	let balance = 0;
     for (let t of this.transactions) {
